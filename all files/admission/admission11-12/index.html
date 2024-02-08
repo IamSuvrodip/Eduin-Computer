@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		admisson form class 11&12
+	</title>
+	<link rel="stylesheet" type="text/css" href="admission.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+</head>
+<body>
+	<form action="insert.php" method="POST">
+	<div class="wrapper">
+		<div class="input-box">
+		<a href="#"><h3><i class="fas fa-user-graduate fa-2x mx-3"></i>Eduin Computer</a></h3><br>
+		</div>
+		<h2>Admission Form Class (11 & 12)</h2>
+		
+			<h4>Personal information<font class="must"> *</font></h4>
+			<div class="input-group">
+				<div class="input-box">
+					<input type="text" placeholder="Full Name" required class="name" name="fullname">
+					<i class="fa fa-user icon"></i>
+				</div>
+				<div class="input-box">
+					<input type="number" placeholder="Age" required class="name" name="age">
+					<i class="fa fa-table icon"></i>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="input-box">
+					<input id="email" type="email" placeholder="Email Address"required class="name" name="email">
+					<i class="fa fa-envelope icon"></i>
+				</div>
+			</div>
+			<div class="input-group">
+				<div class="input-box">
+					<input type="text" placeholder="Madhyamik Percentage" required class="name" name="class">
+					<i class="fa fa-graduation-cap icon"></i>
+				</div>
+				<div class="input-box">
+					<input type="radio" id="b5" name="class" checked class="radio" value="class 11">
+					<label for="b5">Class 11</label>
+					<input type="radio" id="b6" name="class" checked class="radio" value="class 12">
+					<label for="b6">Class 12</label>
+				</div>
+			</div>
+		
+			<div class="input-group">
+				<div class="input-box">
+					<h4>Date of Birth<font class="must"> *</font></h4>
+					<input type="number" placeholder="DD" class="dob" name="dd">
+					<input type="number" placeholder="MM" class="dob" name="mm">
+					<input type="number" placeholder="YYYY" class="dob" name="yyyy">
+				</div>
+				<div class="input-box">
+					<h4>Gender<font class="must"> *</font></h4>
+					<input type="radio" id="b1" name="gender" checked class="radio" value="M">
+					<label for="b1">Male</label>
+					<input type="radio" id="b2" name="gender" checked class="radio" value="F">
+					<label for="b2">Female</label>
+				</div>
+			</div>
+			<h4>Gurdian Details<font class="must"> *</font></h4>
+			<div class="input-group">
+				<div class="input-box">
+					<input type="text" placeholder="Gurdian Name" required class="name" name="gurdian">
+					<i class="fa fa-user icon"></i>
+					</div>
+					</div>
+					<div class="input-group">
+					<div class="input-box">
+					<input type="number" placeholder="Phone Number" required class="name" name="phone">
+					<i class="fa fa-phone icon"></i>
+					</div>
+					</div>
+					<div class="input-group">
+					<div class="input-box">
+					<input type="text" placeholder="Gurdian Occupation" required class="name" name="ocupation">
+					<i class="fa fa-briefcase icon"></i>
+					</div>
+				</div>
+				<div class="input-group">
+					<div class="input-box">
+					<input type="text" placeholder="School Name" required class="name" name="school">
+					<i class="fa fa-graduation-cap icon"></i>
+				</div>
+			</div>
+			<div class="input-group">
+					<div class="input-box">
+					<input type="text" placeholder="Present Address" required class="name" name="address">
+					<i class="fa fa-home icon"></i>
+					</div>
+				</div>
+			<div class="input-group">
+			<div class="input-box">
+					<h4>Subject<font class="must"> *</font></h4>
+					<input type="radio" id="b3" name="subject" checked class="radio" value='English' >
+					<label for="b3">English</label>
+					<input type="radio" id="b4" name="subject" checked class="radio" value='Computer'>
+					<label for="b4">Computer</label>
+				</div>
+			</div>
+			<h4>Are you know our any Student?</h4>
+				<div class="input-group">
+					<div class="input-box">
+						<input type="text" placeholder="His/Her Name" class="name" name="friend">
+					<i class="fa fa-user icon"></i>
+					</div>
+				</div>
+				<center>
+					
+				<button type="submit" name="submit" class="submit" value="redirect">Submit</button>
+					 
+			</center>
+		
+	</div>
+
+	</form>
+</body>
+</html>
